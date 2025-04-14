@@ -1,2 +1,8 @@
-import fetch from './js/pixabay-api'
-import Modulename from './js/render-functions'
+import { getImagesByQuery } from './js/pixabay-api'
+import {
+  createGallery,
+  clearGallery,
+  showLoader,
+  hideLoader,
+  fetchImages
+} from './js/render-functions'
